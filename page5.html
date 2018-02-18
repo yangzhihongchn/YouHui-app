@@ -10,7 +10,7 @@
 			shrink-to-fit=no, user-scalable=no">
 			
 			<script>
-				(function(){
+				window.onload = function(){
 					var docEl = document.documentElement;
 //					获取文档元素,相当于获取html标签的爸爸
 					var width = docEl.getBoundingClientRect().width;
@@ -21,7 +21,18 @@
 //                   	如果设计图750宽,一般除以15,1rem=50px;
 					docEl.style.fontSize = rootSize + 'px';
 //					把十分之一宽度加载给html标签font-size
-				})()
+					
+					var rt = document.getElementsByClassName("page5_banner_icon1");
+					var sc = document.getElementsByClassName("page5_banner_icon2");
+					
+					rt[0].onclick = function(){
+						window.location.href = "index.html";
+					}
+					
+					sc[0].onclick = function(){
+						window.location.href = "page7.html";
+					}
+				}
 			</script>
 	</head>
 	<body>
@@ -86,8 +97,8 @@
 		
 		<section class="shopping_cart">
 			<span><img src="img/shopping_cart.png"/></span>
-			<a href="#">即刻购买</a>
-			<a href="#">加入购物车</a>
+			<a href="page8.html">即刻购买</a>
+			<a href="page6.html">加入购物车</a>
 		</section>
 	</body>
 </html>

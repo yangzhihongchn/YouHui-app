@@ -35,6 +35,7 @@ body {
 }
 
 .header ul{
+	width: 100%;
 	height: 0.5740rem;
 	
 }
@@ -95,7 +96,7 @@ body {
 .side{
 	width: 0.5rem;
 	height: 0.3333rem;
-	margin-top: 0.6944rem;
+	margin-top: 0.4944rem;
 	margin-left: 0.6851rem;
 	float: left;
 }
@@ -108,7 +109,7 @@ body {
 .header p{
 	font-size: 0.6667rem;
 	color: #FFFFFF;
-	margin-top: 0.4rem;
+	margin-top: 0.2rem;
 	margin-left: 0.2777rem;
 	float: left;
 }
@@ -117,7 +118,8 @@ body {
 	display: block;
 	width: 0.1388rem;
 	height: 0.5555rem;
-	margin-top: 0.5833rem;
+	margin-top: 0.3833rem;
+	margin-right: -0.5rem;
 	float: right;
 }
 
@@ -271,15 +273,4 @@ nav .in{border-bottom: 0.092rem solid #ff4f64;}
 .main> a:nth-of-type(2) img{
 	width: 100%;
 	display: block;
-}
-
-footer{
-	/*position: absolute;
-	bottom: 0;
-	left: 0;*/
-	width: 100%;
-	height: 0.5833rem;
-	margin-top: -0.1574rem;
-	background-color: #f0f0f0;
-	z-index: 0;
 }
