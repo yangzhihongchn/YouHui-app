@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>页面4</title>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+		<link rel="stylesheet" type="text/css" href="css/page.css"/>
+		<meta name="viewport" content="width=device-width, 
+			initial-scale=1, maximum-scale=1, minimum-scale=1, 
+			shrink-to-fit=no, user-scalable=no">
+			
+			<script>
+				(function(){
+					var docEl = document.documentElement;
+//					获取文档元素,相当于获取html标签的爸爸
+					var width = docEl.getBoundingClientRect().width;
+//					获取这个元素的宽度,就是屏幕的宽度
+					var rootSize = width/10;
+//					总宽十分之一的宽度
+//                  如果设计图640宽,一般是除以16,1rem=40px;
+//                   	如果设计图750宽,一般除以15,1rem=50px;
+					docEl.style.fontSize = rootSize + 'px';
+//					把十分之一宽度加载给html标签font-size
+				})()
+			</script>
+	</head>
+	<body>
+		<section class="header">
+			
+			<ul>
+				<li><span class="time">12.56</span></li>
+				<li><span class="battery"><img src="img/battery.png"/></span></li>
+				<li><span class="single"><img src="img/single.png"/></span></li>
+				<li><span class="wifi"><img src="img/wifi.png"/></span></li>
+			</ul>
+			<a href="#" class="side"><img src="img/side.png"/></a>
+			<p>有汇</p>
+			<span class="search"></span>
+			<a href="#" class="more"><img src="img/more.png"/></a>
+		</section>
+		
+		<nav>
+			<a href="#">发现</a>
+			<a href="#">极致美护</a>
+			<a href="#">个性配饰</a>
+			<a href="#" class="in">本周热卖</a>
+		</nav>
+		
+		<a href="#" class="page4_banner">
+			<span>芙丽芳＞</span>
+			<section class="page4_banner_tp">
+				<p>￥129</p>
+				<p>￥218</p>
+			</section>
+		</a>
+		
+		<a href="#" class="page4_banner2">
+			<span>热销</span>
+			<section class="page4_banner2_tp">
+				<p>￥39</p>
+				<p>￥98</p>
+			</section>
+		</a>
+		
+		<a href="#" class="page4_banner3">
+			<img src="img/page4_banner3.jpg"/>
+			<h5>店王耳钉(精灵美)</h5>
+			<p>以美丽而美丽，透露出本身清新的海上花个性水晶耳钉，带着一点清亮漫画风，设计师甜鸟对闪存卡曾几何时快乐才是</p>
+			<p>一手价：<span>￥29.00</span></p>
+		</a>
+		
+		<a href="#" class="page4_banner4">
+			<img src="img/page4_banner4.jpg"/>
+			<h5>清醇之灵(咖喱Ⅶ)</h5>
+			<p>大自然的美丽，神奇的雾体清新的海上花个性水晶耳钉，带着一点清亮漫画风，设计师甜鸟对闪存卡曾几何时快乐才是</p>
+			<p>一手价：<span>￥49.00</span></p>
+		</a>
+	</body>
+</html>

@@ -1,0 +1,202 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,
+html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display: block
+}
+
+html {
+	font-family: Microsoft YaHei,Helvetica Neue,Helvetica,STHeiTi,Arial,sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	/*font-size: 62.5%;
+	line-height: 1.5*/
+}
+
+body {
+	overflow-x: hidden;
+	width: 100%;
+	min-width: 320px;
+	background-color: #d9d5d6;
+}
+
+.page7_title{
+	width: 100%;
+    height: 1.3055rem;
+    background-color: #f84056;
+    overflow: hidden;
+    position: relative;
+    top: -0.0092rem;
+}
+
+.page7_title a{
+	width: 0.5462rem;
+    height: 0.3888rem;
+    display: block;
+    position: absolute;
+    top: 0.2407rem;
+    left: 0.4814rem;
+}
+
+.page7_title a img{
+	display: block;
+	width: 100%;
+}
+
+.page7_title_search{
+}
+
+.page7_title_text{
+	width: calc(8.2777rem - 0.6203rem);
+	height: 0.6203rem;
+	border: none;
+	background-color: #c8051c;
+	background-image: url(../img/page7_search.png);
+	background-size: 0.3981rem 0.3981rem;
+	background-position: 0.1296rem center;
+	background-repeat: no-repeat;
+	padding-left: 0.6203rem;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0.1481rem;
+	left: 1.3148rem;
+}
+
+.page7_main{
+	width: 100%;
+	/*height: calc(100% - 1.9722rem - 1.3055rem);*/
+	height: 15.7314rem;
+	position: relative;
+}
+
+.page7_main a{
+	display: block;
+	color: #000000;
+	position: absolute;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.page7_main a:nth-of-type(1){
+	width: 3.8888rem;
+	height: 3.8888rem;
+	line-height: 3.8888rem;
+	border-radius: 50%;
+	font-size: 0.5555rem;
+	top: 1.1666rem;
+	left: 0.75rem;
+}
+
+.page7_main a:nth-of-type(2){
+	width: 2.3888rem;
+	height: 2.3888rem;
+	line-height: 2.3888rem;
+	border-radius: 50%;
+	font-size: 0.3888rem;
+	top: 1.7962rem;
+	left: 4.7151rem;
+}
+
+.page7_main a:nth-of-type(3){
+	width: 2.7404rem;
+	height: 2.7404rem;
+	line-height: 2.7404rem;
+	border-radius: 50%;
+	font-size: 0.4629rem;
+	top: 1.8888rem;
+	right: 0.0574rem;
+}
+
+.page7_main a:nth-of-type(4){
+	width: 2.8888rem;
+	height: 2.8888rem;
+	line-height: 2.8888rem;
+	border-radius: 50%;
+	font-size: 0.4629rem;
+	top: 4.6018rem;
+	left: 0.8703rem;
+}
+
+.page7_main a:nth-of-type(5){
+	width: 2.7962rem;
+	height: 2.7962rem;
+	line-height: 2.7962rem;
+	border-radius: 50%;
+	font-size: 0.5555rem;
+	top: 4.2592rem;
+	left: 3.7222rem;
+}
+
+.page7_main a:nth-of-type(6){
+	width: 3.0925rem;
+	height: 3.0925rem;
+	line-height: 3.0925rem;
+	border-radius: 50%;
+	font-size: 0.5555rem;
+	top: 4.6481rem;
+	right: 0.3240rem;
+}
+
+.page7_main a:nth-of-type(7){
+	width: 2.5092rem;
+	height: 2.5092rem;
+	line-height: 2.5092rem;
+	border-radius: 50%;
+	font-size: 0.5555rem;
+	top: 7.5rem;
+	left: 0.4814rem;
+	color: #FFFFFF;
+	background-color: #f84056;
+}
+
+.page7_main a:nth-of-type(8){
+	width: 2.9351rem;
+	height: 2.9351rem;
+	line-height: 2.9351rem;
+	border-radius: 50%;
+	font-size: 0.3888rem;
+	top: 7.0370rem;
+	left: 3.0092rem;
+}
+
+.page7_main a:nth-of-type(9){
+	width: 3.3333rem;
+	height: 3.3333rem;
+	line-height: 3.3333rem;
+	border-radius: 50%;
+	font-size: 0.4629rem;
+	top: 7.7222rem;
+	right: 0.8148rem;
+}
+
+.page7_main a:nth-of-type(10){
+	width: 2.6759rem;
+	height: 2.6759rem;
+	line-height: 2.6759rem;
+	border-radius: 50%;
+	font-size: 0.5555rem;
+	top: 9.7685rem;
+	left: 1.6481rem;
+}
+
+.page7_main a:nth-of-type(11){
+	width: 1.3611rem;
+	height: 1.3611rem;
+	/*line-height: 1.3611rem;*/
+	border-radius: 50%;
+	top: 11.2407rem;
+	right: 0.7222rem;
+}
+
+.page7_main a:nth-of-type(11) img{
+	width: 1.1203rem;
+	margin: 0 auto;
+	vertical-align: middle;
+}

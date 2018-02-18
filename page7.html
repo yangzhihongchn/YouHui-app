@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>页面7</title>
+		<link rel="stylesheet" type="text/css" href="css/page2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/page7.css"/>
+		<meta name="viewport" content="width=device-width, 
+			initial-scale=1, maximum-scale=1, minimum-scale=1, 
+			shrink-to-fit=no, user-scalable=no">
+			
+			<script>
+				(function(){
+					var docEl = document.documentElement;
+//					获取文档元素,相当于获取html标签的爸爸
+					var width = docEl.getBoundingClientRect().width;
+//					获取这个元素的宽度,就是屏幕的宽度
+					var rootSize = width/10;
+//					总宽十分之一的宽度
+//                  如果设计图640宽,一般是除以16,1rem=40px;
+//                   	如果设计图750宽,一般除以15,1rem=50px;
+					docEl.style.fontSize = rootSize + 'px';
+//					把十分之一宽度加载给html标签font-size
+				})()
+			</script>
+	</head>
+	<body>
+		
+		<section class="header">
+			
+			<ul>
+				<li><span class="time">12.56</span></li>
+				<li><span class="battery"><img src="img/battery.png"/></span></li>
+				<li><span class="single"><img src="img/single.png"/></span></li>
+				<li><span class="wifi"><img src="img/wifi.png"/></span></li>
+			</ul>
+		</section>
+		
+		<section class="page7_title">
+			<a href="#"><img src="img/left_arror.png"/></a>
+			<input type="text" class="page7_title_text" placeholder="搜索商品"/>
+		</section>
+		
+		<section class="page7_main">
+			<a href="#">指甲油</a>
+			<a href="#">面膜</a>
+			<a href="#">手表</a>
+			<a href="#">香水</a>
+			<a href="#">零食</a>
+			<a href="#">衣服</a>
+			<a href="#">项链</a>
+			<a href="#">咖啡</a>
+			<a href="#">手机</a>
+			<a href="#">戒指</a>
+			<a href="#"><img src="img/page7_more.png"/></a>
+		</section>
+	</body>
+</html>

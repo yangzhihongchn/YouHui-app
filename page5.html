@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>页面5</title>
+		<link rel="stylesheet" type="text/css" href="css/page.css"/>
+		<link rel="stylesheet" type="text/css" href="css/page2.css"/>
+		<meta name="viewport" content="width=device-width, 
+			initial-scale=1, maximum-scale=1, minimum-scale=1, 
+			shrink-to-fit=no, user-scalable=no">
+			
+			<script>
+				(function(){
+					var docEl = document.documentElement;
+//					获取文档元素,相当于获取html标签的爸爸
+					var width = docEl.getBoundingClientRect().width;
+//					获取这个元素的宽度,就是屏幕的宽度
+					var rootSize = width/10;
+//					总宽十分之一的宽度
+//                  如果设计图640宽,一般是除以16,1rem=40px;
+//                   	如果设计图750宽,一般除以15,1rem=50px;
+					docEl.style.fontSize = rootSize + 'px';
+//					把十分之一宽度加载给html标签font-size
+				})()
+			</script>
+	</head>
+	<body>
+		
+		<section class="header">
+			
+			<ul>
+				<li><span class="time">12.56</span></li>
+				<li><span class="battery"><img src="img/battery.png"/></span></li>
+				<li><span class="single"><img src="img/single.png"/></span></li>
+				<li><span class="wifi"><img src="img/wifi.png"/></span></li>
+			</ul>
+		</section>
+		
+		<a href="#" class="page5_banner">
+			<span class="page5_banner_icon1"><img src="img/page5_icon1.png"/></span>
+			<span class="page5_banner_icon2"><img src="img/page5_icon2.png"/></span>
+			<span class="page5_banner_icon3"><img src="img/page5_icon3.png"/></span>
+		</a>
+		
+		<section class="page5_catalog">
+			<ul>
+				<li>
+					<a href="#">
+					<img src="img/page5_icon4.png"/>
+					收藏766
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<img src="img/page5_icon5.png"/>
+					分享
+					</a>
+				</li>
+			</ul>
+		</section>
+		
+		<section class="page5_main">
+			<h3>[翡翠宝石手表]女士时尚精钢金色珐琅，圆形简单大气感受到撒撒撒</h3>
+			<p>简单大方的设计感，很适合职场拼杀的风范，很有品位,金与蓝
+的结合，经典传承，手表是职场女性的身份象征,装饰大过它的实用，有机结合，带来全新
+女士时尚精钢金色珐琅，圆形简单大气感受到撒撒撒</p>
+
+			<span>￥688.00</span>
+		</section>
+		
+		<section class="page5_main2">
+			<h3>搜索关键词</h3>
+			<ul>
+				<li><a href="#">玫瑰金色</a></li>
+				<li><a href="#">镶嵌真钻</a></li>
+				<li><a href="#">生活防水</a></li>
+			</ul>
+		</section>
+		
+		<section class="page5_main3">
+			<h1><span></span>产品展示</h1>
+			<p>手表的装饰往往大过它的实用性，一款好看的手表更能成为腕间的风景
+金色和白色融合，就像女孩的天真带着女人的优雅。蓝宝石的镶嵌更能
+体现出它的高贵，尽显华贵。</p>
+		</section>
+		
+		<section class="shopping_cart">
+			<span><img src="img/shopping_cart.png"/></span>
+			<a href="#">即刻购买</a>
+			<a href="#">加入购物车</a>
+		</section>
+	</body>
+</html>

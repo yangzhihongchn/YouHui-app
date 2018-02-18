@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>页面6</title>
+		<link rel="stylesheet" type="text/css" href="css/page2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/page6.css"/>
+		<meta name="viewport" content="width=device-width, 
+			initial-scale=1, maximum-scale=1, minimum-scale=1, 
+			shrink-to-fit=no, user-scalable=no">
+			
+			<script>
+				(function(){
+					var docEl = document.documentElement;
+//					获取文档元素,相当于获取html标签的爸爸
+					var width = docEl.getBoundingClientRect().width;
+//					获取这个元素的宽度,就是屏幕的宽度
+					var rootSize = width/10;
+//					总宽十分之一的宽度
+//                  如果设计图640宽,一般是除以16,1rem=40px;
+//                   	如果设计图750宽,一般除以15,1rem=50px;
+					docEl.style.fontSize = rootSize + 'px';
+//					把十分之一宽度加载给html标签font-size
+				})()
+			</script>
+	</head>
+	<body>
+		<section class="header">
+			
+			<ul>
+				<li><span class="time">12.56</span></li>
+				<li><span class="battery"><img src="img/battery.png"/></span></li>
+				<li><span class="single"><img src="img/single.png"/></span></li>
+				<li><span class="wifi"><img src="img/wifi.png"/></span></li>
+			</ul>
+		</section>
+		
+		<section class="page6_title">
+			<a href="#"><img src="img/left_arror.png"/></a>
+			<h1>订单确认</h1>
+		</section>
+		
+		<section class="page6_main">
+			<section class="page6_main_title">
+				<h4>收件人信息</h4>
+				<a href="#">保存地址</a>
+			</section>
+			<section class="page6_main_text">
+				<ul>
+					<li>姓名</li>
+					<li>手机号码</li>
+					<li>省份-城市-小区</li>
+					<li>详细地址</li>
+				</ul>
+			</section>
+		</section>
+		
+			<section class="page6_main2">
+			<section class="page6_main2_title">
+				<h3>购买详情</h3>
+			</section>
+			<section class="page6_main2_text">
+				<ul>
+					<li>
+						<img src="img/page6_pic.jpg"/>
+						<p class="money">￥766.00<br />
+						x1</p>
+					</li>
+					<li>
+						<p>购买数量</p>
+						<span>+</span>
+						<span>1</span>
+						<span>-</span>
+					</li>
+					<li>
+						<p>商品金额：</p>
+						<p>￥766.00</p>
+					</li>
+					<li>
+						<p>优惠及服务</p>
+					</li>
+					<li>
+						<p>应付金额：</p>
+						<span>￥766.00</span>
+						<a href="#">确认并支付</a>
+					</li>
+				</ul>
+			</section>
+		</section>	
+			
+	</body>
+</html>

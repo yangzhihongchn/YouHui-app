@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>手机端</title>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+		<meta name="viewport" content="width=device-width, 
+			initial-scale=1, maximum-scale=1, minimum-scale=1, 
+			shrink-to-fit=no, user-scalable=no">
+			
+			<script>
+				(function(){
+					var docEl = document.documentElement;
+//					获取文档元素,相当于获取html标签的爸爸
+					var width = docEl.getBoundingClientRect().width;
+//					获取这个元素的宽度,就是屏幕的宽度
+					var rootSize = width/10;
+//					总宽十分之一的宽度
+//                  如果设计图640宽,一般是除以16,1rem=40px;
+//                   	如果设计图750宽,一般除以15,1rem=50px;
+					docEl.style.fontSize = rootSize + 'px';
+//					把十分之一宽度加载给html标签font-size
+				})()
+			</script>
+			
+	</head>
+	
+	<!--1rem=108px-->
+	<body>
+		
+		<section class="header">
+			
+			<ul>
+				<li><span class="time">12.56</span></li>
+				<li><span class="battery"><img src="img/battery.png"/></span></li>
+				<li><span class="single"><img src="img/single.png"/></span></li>
+				<li><span class="wifi"><img src="img/wifi.png"/></span></li>
+			</ul>
+			<a href="#" class="side"><img src="img/side.png"/></a>
+			<p>有汇</p>
+			<span class="search"></span>
+			<a href="#" class="more"><img src="img/more.png"/></a>
+		</section>
+		
+		<nav>
+			<a href="#" class="in">发现</a>
+			<a href="#">极致美护</a>
+			<a href="#">个性配饰</a>
+			<a href="#">本周热卖</a>
+		</nav>
+		
+		<a href="#" class="banner"><img src="img/banner.png"/></a>
+		
+		<section class="catalog_bg">
+			<section class="catalog1">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="img/pic1.png"/>
+							保税区
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/pic2.png"/>
+							订单
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/pic3.png"/>
+							类目
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="img/pic4.png"/>
+							闪购
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section class="catalog2">
+				<ul>
+					<li><a href="#">今日上新</a></li>
+					<li><a href="#">明日预告</a></li>
+				</ul>
+			</section>
+		</section>
+		
+		<section class="main">
+			<span><img src="img/icon-1.png"/></span>
+			<p>今日共有12个专场开售</p>
+			<a href="#"><img src="img/banner1.jpg"/></a>
+			<a href="#"><img src="img/banner2.jpg"/></a>
+		</section>
+		
+		<footer>
+			
+		</footer>
+	</body>
+</html>
